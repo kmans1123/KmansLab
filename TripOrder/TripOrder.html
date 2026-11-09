@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="트립오더는 여행 날짜와 이동 조건에 맞춰 방문 순서와 일정을 자동으로 만드는 iPhone 여행 플래너예요. 완성한 일정은 이미지로 저장하고 공유할 수 있어요.">
+  <meta name="theme-color" content="#f7faf7">
+  <title>트립오더 · 여행을 주문하는 새로운 방법</title>
+  <link rel="icon" href="image/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="site.css">
+  <script src="reveal.js" defer></script>
+  <script src="carousel.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="트립오더 소개 처음으로">
+        <img src="image/app-icon.png" alt="" width="36" height="36">
+        <span>TripOrder</span>
+      </a>
+      <nav aria-label="주요 메뉴">
+        <a class="nav-features" href="#features">앱 살펴보기</a>
+        <a class="pill header-store" href="https://apps.apple.com/kr/app/id6811789069">App Store <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="kicker"><span></span> iPhone 여행 플래너</p>
+        <p class="hero-tagline">일상을 벗어나, 새로운 곳으로.</p>
+        <h1 id="hero-title">여행을<br><em>주문하세요!</em></h1>
+        <p class="hero-description">가보고 싶은 곳은 많은데, 어디부터 갈지 막막할 때. 장소를 담고 날짜와 교통수단을 정하면 트립오더가 방문 순서부터 하루 일정까지 짜줘요.</p>
+        <div class="hero-actions">
+          <a class="pill primary" href="https://apps.apple.com/kr/app/id6811789069">App Store에서 보기 <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#destinations">여행지 둘러보기 <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-carousel role="region" aria-roledescription="carousel" aria-label="TripOrder 앱스토어 소개 이미지">
+        <div class="carousel-viewport" data-carousel-viewport>
+          <div class="carousel-track" data-carousel-track>
+            <figure class="carousel-slide is-active" role="group" aria-roledescription="슬라이드" aria-label="1 / 7">
+              <button class="carousel-open" type="button" aria-label="1번 소개 이미지 확대 보기">
+                <img src="image/app-store/01.jpg" alt="TripOrder 소개 이미지 1: 앱 홈과 저장된 여행 목록" width="900" height="1947" fetchpriority="high">
+              </button>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="슬라이드" aria-label="2 / 7" aria-hidden="true">
+              <button class="carousel-open" type="button" aria-label="2번 소개 이미지 확대 보기">
+                <img src="image/app-store/02.jpg" alt="TripOrder 소개 이미지 2" width="900" height="1947" loading="lazy">
+              </button>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="슬라이드" aria-label="3 / 7" aria-hidden="true">
+              <button class="carousel-open" type="button" aria-label="3번 소개 이미지 확대 보기">
+                <img src="image/app-store/03.jpg" alt="TripOrder 소개 이미지 3" width="900" height="1947" loading="lazy">
+              </button>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="슬라이드" aria-label="4 / 7" aria-hidden="true">
+              <button class="carousel-open" type="button" aria-label="4번 소개 이미지 확대 보기">
+                <img src="image/app-store/04.jpg" alt="TripOrder 소개 이미지 4" width="900" height="1947" loading="lazy">
+              </button>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="슬라이드" aria-label="5 / 7" aria-hidden="true">
+              <button class="carousel-open" type="button" aria-label="5번 소개 이미지 확대 보기">
+                <img src="image/app-store/05.jpg" alt="TripOrder 소개 이미지 5" width="900" height="1947" loading="lazy">
+              </button>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="슬라이드" aria-label="6 / 7" aria-hidden="true">
+              <button class="carousel-open" type="button" aria-label="6번 소개 이미지 확대 보기">
+                <img src="image/app-store/06.jpg" alt="TripOrder 소개 이미지 6" width="900" height="1947" loading="lazy">
+              </button>
+            </figure>
+            <figure class="carousel-slide" role="group" aria-roledescription="슬라이드" aria-label="7 / 7" aria-hidden="true">
+              <button class="carousel-open" type="button" aria-label="7번 소개 이미지 확대 보기">
+                <img src="image/app-store/07.jpg" alt="TripOrder 소개 이미지 7" width="900" height="1947" loading="lazy">
+              </button>
+            </figure>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-arrow" type="button" data-carousel-prev aria-label="이전 소개 이미지">←</button>
+          <div class="carousel-dots" role="group" aria-label="소개 이미지 선택">
+            <button type="button" aria-label="1번 소개 이미지 보기" aria-current="true"></button>
+            <button type="button" aria-label="2번 소개 이미지 보기"></button>
+            <button type="button" aria-label="3번 소개 이미지 보기"></button>
+            <button type="button" aria-label="4번 소개 이미지 보기"></button>
+            <button type="button" aria-label="5번 소개 이미지 보기"></button>
+            <button type="button" aria-label="6번 소개 이미지 보기"></button>
+            <button type="button" aria-label="7번 소개 이미지 보기"></button>
+          </div>
+          <span class="carousel-count" data-carousel-count aria-hidden="true">01 / 07</span>
+          <button class="carousel-arrow" type="button" data-carousel-next aria-label="다음 소개 이미지">→</button>
+        </div>
+      </div>
+      <dialog class="image-lightbox" data-lightbox aria-label="TripOrder 앱스토어 소개 이미지 확대 보기">
+        <div class="lightbox-toolbar">
+          <span class="lightbox-count" data-lightbox-count>01 / 07</span>
+          <button class="lightbox-close" type="button" data-lightbox-close aria-label="확대 이미지 닫기">×</button>
+        </div>
+        <div class="lightbox-stage">
+          <button class="lightbox-arrow" type="button" data-lightbox-prev aria-label="이전 확대 이미지">←</button>
+          <img data-lightbox-image alt="" width="900" height="1947">
+          <button class="lightbox-arrow" type="button" data-lightbox-next aria-label="다음 확대 이미지">→</button>
+        </div>
+      </dialog>
+    </section>
+
+    <section class="destinations" id="destinations" aria-labelledby="destinations-title">
+      <div class="wrap">
+        <div class="section-intro" data-reveal>
+          <p class="kicker"><span></span> 국내 여행지</p>
+          <h2 id="destinations-title">다음엔 어디로 떠날까요?</h2>
+          <p class="section-description">도심 속 궁궐부터 바닷가 산책까지. 가고 싶은 곳을 하나씩 골라보세요.</p>
+        </div>
+
+        <div class="destination-grid">
+          <article class="destination-card destination-seoul" data-reveal>
+            <p class="city-label">SEOUL</p>
+            <h3>서울</h3>
+            <p class="city-places">경복궁 · 북촌한옥마을</p>
+            <svg class="city-mark" viewBox="0 0 120 88" aria-hidden="true" focusable="false">
+              <path d="M9 69h102M22 59h76M32 59V42m56 17V42M48 59V44m24 15V44M19 42c18-2 32-10 41-23 9 13 23 21 41 23H19Zm17-13c10-2 18-8 24-17 6 9 14 15 24 17"/>
+            </svg>
+          </article>
+          <article class="destination-card destination-daegu" data-reveal>
+            <p class="city-label">DAEGU</p>
+            <h3>대구</h3>
+            <p class="city-places">수성못 · 앞산전망대</p>
+            <svg class="city-mark" viewBox="0 0 120 88" aria-hidden="true" focusable="false">
+              <path d="M10 60 40 28l13 15 15-22 42 39M11 69c12-6 21 6 33 0s21 6 33 0 21 6 33 0M22 78c11-6 19 6 30 0s19 6 30 0"/>
+              <circle cx="93" cy="23" r="7"/>
+            </svg>
+          </article>
+          <article class="destination-card destination-daejeon" data-reveal>
+            <p class="city-label">DAEJEON</p>
+            <h3>대전</h3>
+            <p class="city-places">한밭수목원 · 국립중앙과학관</p>
+            <svg class="city-mark" viewBox="0 0 120 88" aria-hidden="true" focusable="false">
+              <path d="M14 73h91M48 73V50m26 23V55M48 59c-18-7-23-19-22-34 16 3 24 13 22 25 2-15 10-25 26-29 0 17-8 30-26 38Zm26 4c-4-14 4-25 19-31 3 14-4 26-19 31Z"/>
+            </svg>
+          </article>
+          <article class="destination-card destination-busan" data-reveal>
+            <p class="city-label">BUSAN</p>
+            <h3>부산</h3>
+            <p class="city-places">해운대해수욕장 · 광안리해수욕장</p>
+            <svg class="city-mark" viewBox="0 0 120 88" aria-hidden="true" focusable="false">
+              <path d="M9 54h102M31 63V23m58 40V23M9 50c9-6 16-13 22-23 16 31 42 31 58 0 6 10 13 17 22 23M13 72c12-6 21 6 33 0s21 6 33 0 21 6 30 0"/>
+            </svg>
+          </article>
+          <article class="destination-card destination-jeju" data-reveal>
+            <p class="city-label">JEJU</p>
+            <h3>제주</h3>
+            <p class="city-places">성산일출봉 · 함덕해수욕장</p>
+            <svg class="city-mark" viewBox="0 0 120 88" aria-hidden="true" focusable="false">
+              <path d="M12 67 32 56l12-16 16 7 13-7 16 18 19 9H12Zm33-33a16 16 0 0 1 31 0M60 8v6M36 18l5 5m43-5-5 5M26 76h68"/>
+            </svg>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="wrap">
+        <div class="section-intro" data-reveal>
+          <p class="kicker"><span></span> HOW IT WORKS</p>
+          <h2 id="features-title">가고 싶은 곳을 고르면,<br>하루 일정이 완성돼요.</h2>
+          <p class="section-description">출발 시간부터 머무는 시간까지 내 여행에 맞추고, 완성된 일정은 동행과 한 장으로 공유하세요.</p>
+        </div>
+
+        <section class="feature feature-explore" aria-labelledby="explore-title">
+          <div class="feature-copy" data-reveal>
+            <p class="step"><span>01</span> 장소 담기</p>
+            <h3 id="explore-title">가고 싶은 곳을<br>지도에서 찾아 담아요.</h3>
+            <p>꼭 가보고 싶었던 관광지, 점심 먹을 맛집, 잠깐 쉬어갈 카페까지. 지도에서 둘러보고 원하는 장소를 검색하거나 직접 추가해 한곳에 담아두세요.</p>
+          </div>
+          <figure class="feature-art art-explore" data-reveal>
+            <div class="app-preview basket-preview">
+              <div class="preview-header">
+                <div>
+                  <p class="preview-eyebrow">서울 여행</p>
+                  <p class="preview-title">장바구니</p>
+                </div>
+                <span class="preview-badge">3곳 담김</span>
+              </div>
+              <p class="preview-group">관광지</p>
+              <ul class="preview-places" role="list">
+                <li><span class="place-thumb thumb-palace" aria-hidden="true"></span><div><strong>덕수궁</strong><small>서울 중구 · 고궁</small></div></li>
+                <li><span class="place-thumb thumb-tower" aria-hidden="true"></span><div><strong>남산서울타워</strong><small>서울 용산구 · 전망</small></div></li>
+                <li><span class="place-thumb thumb-stream" aria-hidden="true"></span><div><strong>청계천</strong><small>서울 도심 · 산책</small></div></li>
+              </ul>
+            </div>
+            <figcaption>장바구니 화면 예시 · 관광지 썸네일은 생성 이미지</figcaption>
+          </figure>
+        </section>
+
+        <section class="feature feature-conditions" aria-labelledby="conditions-title">
+          <div class="feature-copy" data-reveal>
+            <p class="step"><span>02</span> 여행 조건 정하기</p>
+            <h3 id="conditions-title">여행 속도는<br>내가 정해요.</h3>
+            <p>아침 일찍 출발할지, 마음에 드는 곳에서 더 머물지 정해보세요. 날짜와 교통수단, 시작·종료 시간, 장소별 체류시간에 맞춰 일정이 달라져요.</p>
+          </div>
+          <figure class="feature-art art-conditions" data-reveal>
+            <div class="app-preview conditions-preview">
+              <div class="preview-header">
+                <div>
+                  <p class="preview-eyebrow">여행주문서</p>
+                  <p class="preview-title">하루 여행 설정</p>
+                </div>
+                <span class="preview-badge">당일치기</span>
+              </div>
+              <dl class="condition-facts">
+                <div>
+                  <dt><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18m-13 5h2m4 0h2"/></svg>여행 날짜</dt>
+                  <dd>10월 17일</dd>
+                </div>
+                <div>
+                  <dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 10 2-5h10l2 5M5 18v2m14-2v2"/><rect x="3" y="10" width="18" height="8" rx="2"/><path d="M7 14h1m8 0h1"/></svg>교통수단</dt>
+                  <dd>자동차</dd>
+                </div>
+                <div class="condition-wide">
+                  <dt><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>시작·종료 시간</dt>
+                  <dd class="condition-hours"><time datetime="09:00">오전 9:00</time><span>–</span><time datetime="18:00">오후 6:00</time></dd>
+                </div>
+                <div class="condition-wide">
+                  <dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12M6 21h12M7 3v3c0 2.5 2 4 5 6-3 2-5 3.5-5 6v3m10-18v3c0 2.5-2 4-5 6 3 2 5 3.5 5 6v3"/></svg>방문지에 머무는 시간</dt>
+                  <dd>1시간 30분</dd>
+                </div>
+              </dl>
+            </div>
+            <figcaption>여행 조건 입력 화면 예시</figcaption>
+          </figure>
+        </section>
+
+        <section class="feature feature-route" aria-labelledby="route-title">
+          <div class="feature-copy" data-reveal>
+            <p class="step"><span>03</span> 동선 완성</p>
+            <h3 id="route-title">고른 장소가<br>하나의 동선으로.</h3>
+            <p>함덕해수욕장과 하도해변, 성산일출봉까지. 가고 싶은 곳을 담으면 트립오더가 방문 순서와 예상 이동시간을 한눈에 보여줘요.</p>
+          </div>
+          <figure class="feature-art art-route" data-reveal>
+            <div class="app-preview route-preview">
+              <div class="preview-header">
+                <div>
+                  <p class="preview-eyebrow">제주 동쪽을 따라</p>
+                  <p class="preview-title">동선 결과</p>
+                </div>
+                <span class="preview-badge">1일차</span>
+              </div>
+              <dl class="route-summary">
+                <div><dt>방문 장소</dt><dd>3곳</dd></div>
+                <div><dt>예상 이동시간</dt><dd>약 55분</dd></div>
+              </dl>
+              <ol class="preview-places preview-timeline" role="list">
+                <li><span class="preview-number" aria-hidden="true">1</span><span class="place-thumb thumb-hamdeok" aria-hidden="true"></span><div><strong>함덕해수욕장</strong><small>체류 1시간 15분</small></div></li>
+                <li><span class="preview-number" aria-hidden="true">2</span><span class="place-thumb thumb-hado" aria-hidden="true"></span><div><strong>하도해변</strong><small>체류 1시간</small></div></li>
+                <li><span class="preview-number" aria-hidden="true">3</span><span class="place-thumb thumb-seongsan" aria-hidden="true"></span><div><strong>성산일출봉</strong><small>체류 1시간 30분</small></div></li>
+              </ol>
+            </div>
+            <figcaption>동선 결과 화면 예시 · 시간은 예시 값</figcaption>
+          </figure>
+        </section>
+
+        <section class="feature feature-saved" aria-labelledby="saved-title">
+          <div class="feature-copy" data-reveal>
+            <p class="step"><span>04</span> 일정 저장과 공유</p>
+            <h3 id="saved-title">여행 일정은<br>한 장으로 나눠요.</h3>
+            <p>완성된 일정은 홈의 ‘저장된 여행’에서 다시 볼 수 있어요. 여행 전에 이미지 한 장으로 동행에게 보내거나, 사진 앱에 저장해 이동 중에도 바로 꺼내보세요.</p>
+          </div>
+          <figure class="feature-art art-saved" data-reveal>
+            <div class="app-preview share-preview">
+              <div class="share-header">
+                <p class="share-brand"><span aria-hidden="true">✈</span> TripOrder</p>
+                <p class="preview-title">부산 바다를 따라 걷는 하루</p>
+                <p class="share-date">10월 17일 · 대중교통</p>
+              </div>
+              <ol class="preview-places preview-timeline" role="list">
+                <li><span class="preview-number" aria-hidden="true">1</span><span class="place-thumb thumb-gamcheon" aria-hidden="true"></span><div><time class="preview-badge" datetime="09:30">오전 9:30</time><strong>감천문화마을</strong><small>체류 1시간 30분</small></div></li>
+                <li><span class="preview-number" aria-hidden="true">2</span><span class="place-thumb thumb-jagalchi" aria-hidden="true"></span><div><time class="preview-badge" datetime="11:30">오전 11:30</time><strong>자갈치시장</strong><small>이전 장소에서 이동 약 30분</small><small>체류 1시간</small></div></li>
+                <li><span class="preview-number" aria-hidden="true">3</span><span class="place-thumb thumb-songdo" aria-hidden="true"></span><div><time class="preview-badge" datetime="13:10">오후 1:10</time><strong>송도해수욕장</strong><small>이전 장소에서 이동 약 40분</small><small>체류 1시간 15분</small></div></li>
+              </ol>
+              <p class="share-signoff">여행을 주문하는 새로운 방법, <strong>TripOrder</strong></p>
+            </div>
+            <figcaption>저장·공유 화면을 바탕으로 재구성한 웹 예시 · 시간은 예시 값</figcaption>
+          </figure>
+        </section>
+      </div>
+    </section>
+
+    <section class="download wrap" aria-labelledby="download-title">
+      <div class="download-panel" data-reveal>
+        <img src="image/app-icon.png" alt="" width="64" height="64" loading="lazy">
+        <h2 id="download-title">어디를 갈지만 정하세요.</h2>
+        <p>어떻게 여행할지는 트립오더가 정리해 드릴게요.<br>다음 여행에서 가장 가보고 싶은 곳부터 담아보세요.</p>
+        <a class="pill download-link" href="https://apps.apple.com/kr/app/id6811789069">App Store에서 보기 <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <a href="../index.html">KmansLab</a>
+    <a href="../privacy_policy.html">개인정보 처리방침</a>
+  </footer>
+</body>
+</html>
